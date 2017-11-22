@@ -13,7 +13,7 @@ public class AmazonService {
 
 	@RequestMapping("/")
 	String home () {
-		return "Hello world";
+		return "Hello world !";
 		
 	}
 	
