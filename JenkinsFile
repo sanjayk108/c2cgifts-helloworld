@@ -1,0 +1,19 @@
+pipeline {
+    agent any
+    tools {
+        jdk 'jdk8'
+        maven 'maven3'
+    }
+    stages {
+        stage("Checkout") {
+               steps {
+                    git url: 'https://github.com/sanjayk108/c2cgifts-helloworld.git'
+               }
+          }
+        stage('Build') {
+            steps {
+                sh 'mvn -B -DskipTests clean package'
+            }
+        }
+    }
+}
