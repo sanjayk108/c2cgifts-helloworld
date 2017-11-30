@@ -13,7 +13,7 @@ public class AmazonService {
 
 	@RequestMapping("/")
 	String home () {
-		return "Hello world - automated on kubernetes !";
+		return "Hello world - automated all pods on kubernetes !";
 		
 	}
 	
