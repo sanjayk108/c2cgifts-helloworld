@@ -13,7 +13,7 @@ public class AmazonService {
 
 	@RequestMapping("/")
 	String home () {
-		return "Hello world - running kubernetes !";
+		return "Hello world - running kubernetes with CD !";
 		
 	}
 	
