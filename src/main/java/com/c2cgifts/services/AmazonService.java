@@ -13,7 +13,7 @@ public class AmazonService {
 
 	@RequestMapping("/")
 	String home () {
-		return "Hello world - running kubernetes with CI and  CD !";
+		return "Hello world - running kubernetes with CI and  CD  single pipeline!";
 		
 	}
 	
